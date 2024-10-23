@@ -1,0 +1,17 @@
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_input
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_output
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/package_run_dependencies/control
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/parent_prefix_path/control
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/ament_prefix_path.sh
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/ament_prefix_path.dsv
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/path.sh
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/path.dsv
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.bash
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.sh
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.zsh
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.dsv
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/package.dsv
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/packages/control
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/cmake/controlConfig.cmake
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/cmake/controlConfig-version.cmake
+/home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/package.xml

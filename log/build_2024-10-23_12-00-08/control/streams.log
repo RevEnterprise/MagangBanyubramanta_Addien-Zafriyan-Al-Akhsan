@@ -1,0 +1,14 @@
+[0.006s] Invoking command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/joystick/control/build/control -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target joy_input[0m
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target joy_output[0m
+[0.048s] [ 25%] [32mBuilding CXX object CMakeFiles/joy_input.dir/src/joy_input.cpp.o[0m
+[0.050s] [ 75%] Built target joy_output
+[1.367s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:[m[K In member function ‘[01m[Kvoid JoystickInput::joy(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.367s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwsit_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Ktwist_msg[m[K’?
+[1.367s]    35 |         [01;31m[Ktwsit_msg[m[K.linear.y = y_cmd;
+[1.367s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.367s]       |         [32m[Ktwist_msg[m[K
+[2.783s] gmake[2]: *** [CMakeFiles/joy_input.dir/build.make:76: CMakeFiles/joy_input.dir/src/joy_input.cpp.o] Error 1
+[2.784s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joy_input.dir/all] Error 2
+[2.784s] gmake: *** [Makefile:146: all] Error 2
+[2.785s] Invoked command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/joystick/control/build/control -- -j12 -l12

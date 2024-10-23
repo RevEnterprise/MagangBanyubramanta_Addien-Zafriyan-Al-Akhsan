@@ -1,0 +1,114 @@
+[0.007s] Invoking command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/joystick/control/build/control -- -j12 -l12
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target joy_output[0m
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target joy_input[0m
+[0.045s] [ 25%] [32mBuilding CXX object CMakeFiles/joy_output.dir/src/joy_output.cpp.o[0m
+[0.045s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_input.dir/src/joy_input.cpp.o[0m
+[1.397s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:12:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kigeometry_msgs[m[K’ does not name a type
+[1.397s]    12 |     void cmd_vel_callback(const [01;31m[Kigeometry_msgs[m[K::msg::Twist::SharedPtr msg) {
+[1.397s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.397s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:12:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.397s]    12 |     void cmd_vel_callback(const igeometry_msgs::msg[01;31m[K::[m[KTwist::SharedPtr msg) {
+[1.397s]       |                                                    [01;31m[K^~[m[K
+[1.397s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:12:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.397s]    12 |     void cmd_vel_callback[34m[K([m[Kconst igeometry_msgs::msg[01;31m[K:[m[K[32m[K:[m[KTwist::SharedPtr msg) {
+[1.397s]       |                          [34m[K~[m[K                         [01;31m[K^[m[K[32m[K~[m[K
+[1.397s]       |                                                    [32m[K)[m[K
+[1.397s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:12:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.397s]    12 |     void cmd_vel_callback(const igeometry_msgs::[01;31m[Kmsg[m[K::Twist::SharedPtr msg) {
+[1.397s]       |                                                 [01;31m[K^~~[m[K
+[1.397s]       |                                                    [32m[K;[m[K
+[1.397s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[1.397s]    15 |     void joy(const [01;31m[Ksensor_msgs[m[K::msg::Joy::SharedPtr msg) {
+[1.397s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[1.397s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:15:36:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.397s]    15 |     void joy(const sensor_msgs::msg[01;31m[K::[m[KJoy::SharedPtr msg) {
+[1.397s]       |                                    [01;31m[K^~[m[K
+[1.397s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:15:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.397s]    15 |     void joy[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KJoy::SharedPtr msg) {
+[1.397s]       |             [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[1.397s]       |                                    [32m[K)[m[K
+[1.398s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:15:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.398s]    15 |     void joy(const sensor_msgs::[01;31m[Kmsg[m[K::Joy::SharedPtr msg) {
+[1.398s]       |                                 [01;31m[K^~~[m[K
+[1.398s]       |                                    [32m[K;[m[K
+[1.398s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:12:54:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.398s]    12 |     void cmd_vel_callback(const igeometry_msgs::msg::[01;31m[KTwist[m[K::SharedPtr msg) {
+[1.398s]       |                                                      [01;31m[K^~~~~[m[K
+[1.398s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:15:38:[m[K [01;31m[Kerror: [m[K‘[01m[KJoy[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.398s]    15 |     void joy(const sensor_msgs::msg::[01;31m[KJoy[m[K::SharedPtr msg) {
+[1.399s]       |                                      [01;31m[K^~~[m[K
+[1.403s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[1.403s]    50 |     rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::Joy>::SharedPtr subscription_;
+[1.403s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[1.403s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.403s]    50 |     rclcpp::Subscription<sensor_msgs::msg::Joy[01;31m[K>[m[K::SharedPtr subscription_;
+[1.403s]       |                                               [01;31m[K^[m[K
+[1.403s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.403s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.403s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.403s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.403s]    50 |     rclcpp::Subscription<sensor_msgs::msg::Joy>::[01;31m[KSharedPtr[m[K subscription_;
+[1.403s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[1.403s]       |                                                           [32m[K;[m[K
+[1.404s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.404s]    50 |     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr [01;31m[Ksubscription_[m[K;
+[1.404s]       |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[1.404s]       |                                                            [32m[Krmw_subscription_t[m[K
+[1.411s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:[m[K In constructor ‘[01m[KJoystickInput::JoystickInput()[m[K’:
+[1.411s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:8:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.411s]     8 |         [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::Joy>(
+[1.412s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.412s]       |         [32m[Krmw_subscription_t[m[K
+[1.415s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:8:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[1.415s]     8 |         subscription_ = this->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::Joy>(
+[1.415s]       |                                                   [01;31m[K^~~~~~~~~~~[m[K
+[1.415s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:8:31:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.415s]     8 |         subscription_ = this->[01;31m[Kcreate_subscription<sensor_msgs::msg::Joy>[m[K(
+[1.416s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.419s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:8:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KJoystickInput::create_subscription<<expression error> >(const char [5], int, std::_Bind_helper<false, void (JoystickInput::*)(...), JoystickInput*, const std::_Placeholder<1>&>::type)[m[K’
+[1.419s]     8 |         subscription_ = [01;31m[Kthis->create_subscription<sensor_msgs::msg::Joy>([m[K
+[1.419s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.419s]     9 | [01;31m[K            "/joy", 10, std::bind(&JoystickInput::joy, this, std::placeholders::_1))[m[K;
+[1.419s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.419s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.419s]                  from [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:1[m[K:
+[1.419s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.419s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[1.419s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.419s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.419s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:8:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.419s]     8 |         subscription_ = [01;31m[Kthis->create_subscription<sensor_msgs::msg::Joy>([m[K
+[1.419s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.419s]     9 | [01;31m[K            "/joy", 10, std::bind(&JoystickInput::joy, this, std::placeholders::_1))[m[K;
+[1.419s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.421s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:[m[K In constructor ‘[01m[KJoystickOutput::JoystickOutput()[m[K’:
+[1.422s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:7:86:[m[K [01;31m[Kerror: [m[K‘[01m[KCommand[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg::Twist[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’}
+[1.422s]     7 |         cmd_vel_subscription_ = this->create_subscription<geometry_msgs::msg::Twist::[01;31m[KCommand[m[K>(
+[1.422s]       |                                                                                      [01;31m[K^~~~~~~[m[K
+[1.424s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:7:94:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KJoystickOutput::create_subscription<<expression error> >(const char [9], int, std::_Bind_helper<false, void (JoystickOutput::*)(...), JoystickOutput*, const std::_Placeholder<1>&>::type)[m[K’
+[1.424s]     7 |         cmd_vel_subscription_ = [01;31m[Kthis->create_subscription<geometry_msgs::msg::Twist::Command>([m[K
+[1.424s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.424s]     8 | [01;31m[K            "/cmd_vel", 10, std::bind(&JoystickOutput::cmd_vel_callback, this, std::placeholders::_1))[m[K;
+[1.425s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.425s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.425s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.425s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.425s]                  from [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:1[m[K:
+[1.425s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.425s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[1.425s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.425s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.425s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:7:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.425s]     7 |         cmd_vel_subscription_ = [01;31m[Kthis->create_subscription<geometry_msgs::msg::Twist::Command>([m[K
+[1.425s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.425s]     8 | [01;31m[K            "/cmd_vel", 10, std::bind(&JoystickOutput::cmd_vel_callback, this, std::placeholders::_1))[m[K;
+[1.425s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.687s] gmake[2]: *** [CMakeFiles/joy_output.dir/build.make:76: CMakeFiles/joy_output.dir/src/joy_output.cpp.o] Error 1
+[1.687s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/joy_output.dir/all] Error 2
+[1.687s] gmake[1]: *** Waiting for unfinished jobs....
+[1.831s] gmake[2]: *** [CMakeFiles/joy_input.dir/build.make:76: CMakeFiles/joy_input.dir/src/joy_input.cpp.o] Error 1
+[1.831s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joy_input.dir/all] Error 2
+[1.831s] gmake: *** [Makefile:146: all] Error 2
+[1.833s] Invoked command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/joystick/control/build/control -- -j12 -l12

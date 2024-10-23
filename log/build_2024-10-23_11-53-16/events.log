@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000219] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.000372] (control) JobStarted: {'identifier': 'control'}
+[0.004613] (control) JobProgress: {'identifier': 'control', 'progress': 'cmake'}
+[0.004923] (control) JobProgress: {'identifier': 'control', 'progress': 'build'}
+[0.005405] (control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/addienze/MagangBanyubramanta/joystick/control/build/control', '--', '-j12', '-l12'], 'cwd': '/home/addienze/MagangBanyubramanta/joystick/control/build/control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'addienze'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/addienze'), ('OLDPWD', '/home/addienze/MagangBanyubramanta/joystick'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2119'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'addienze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'addienze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/addienze-Thin-15-B12UCX:@/tmp/.ICE-unix/2068,unix/addienze-Thin-15-B12UCX:/tmp/.ICE-unix/2068'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ba7f788_c562_494b_be91_6d4ad7b42e66'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/addienze/MagangBanyubramanta/joystick/control/build/control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037804] (control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joy_output\x1b[0m\n'}
+[0.043867] (control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/joy_input.dir/src/joy_input.cpp.o\x1b[0m\n'}
+[0.049631] (control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_output.dir/src/joy_output.cpp.o\x1b[0m\n'}
+[0.099888] (-) TimerEvent: {}
+[0.200273] (-) TimerEvent: {}
+[0.300630] (-) TimerEvent: {}
+[0.401025] (-) TimerEvent: {}
+[0.501441] (-) TimerEvent: {}
+[0.601873] (-) TimerEvent: {}
+[0.702201] (-) TimerEvent: {}
+[0.802652] (-) TimerEvent: {}
+[0.903055] (-) TimerEvent: {}
+[1.003531] (-) TimerEvent: {}
+[1.103924] (-) TimerEvent: {}
+[1.204291] (-) TimerEvent: {}
+[1.304568] (-) TimerEvent: {}
+[1.404876] (-) TimerEvent: {}
+[1.442894] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:15:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.443091] (control) StderrLine: {'line': b'   15 |     void joy(const \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Joy::SharedPtr msg) {\n'}
+[1.443130] (control) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.443162] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:15:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.443190] (control) StderrLine: {'line': b'   15 |     void joy(const sensor_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KJoy::SharedPtr msg) {\n'}
+[1.443217] (control) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.443243] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:15:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.443269] (control) StderrLine: {'line': b'   15 |     void joy\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KJoy::SharedPtr msg) {\n'}
+[1.443295] (control) StderrLine: {'line': b'      |             \x1b[34m\x1b[K~\x1b[m\x1b[K                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.443321] (control) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.443358] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:15:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.443384] (control) StderrLine: {'line': b'   15 |     void joy(const sensor_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Joy::SharedPtr msg) {\n'}
+[1.443409] (control) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.443433] (control) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.444079] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:15:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJoy\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.444160] (control) StderrLine: {'line': b'   15 |     void joy(const sensor_msgs::msg::\x1b[01;31m\x1b[KJoy\x1b[m\x1b[K::SharedPtr msg) {\n'}
+[1.444194] (control) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.447441] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:12:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kigeometry_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.447529] (control) StderrLine: {'line': b'   12 |     void cmd_vel_callback(const \x1b[01;31m\x1b[Kigeometry_msgs\x1b[m\x1b[K::msg::Twist::SharedPtr msg) {\n'}
+[1.447563] (control) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.447591] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:12:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.447620] (control) StderrLine: {'line': b'   12 |     void cmd_vel_callback(const igeometry_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KTwist::SharedPtr msg) {\n'}
+[1.447646] (control) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.447672] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:12:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.447698] (control) StderrLine: {'line': b'   12 |     void cmd_vel_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst igeometry_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KTwist::SharedPtr msg) {\n'}
+[1.447724] (control) StderrLine: {'line': b'      |                          \x1b[34m\x1b[K~\x1b[m\x1b[K                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.447749] (control) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.447773] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:12:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.447798] (control) StderrLine: {'line': b'   12 |     void cmd_vel_callback(const igeometry_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Twist::SharedPtr msg) {\n'}
+[1.447823] (control) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.447854] (control) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.448288] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.448368] (control) StderrLine: {'line': b'   50 |     rclcpp::Subscription<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Joy>::SharedPtr subscription_;\n'}
+[1.448402] (control) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.448430] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.448465] (control) StderrLine: {'line': b'   50 |     rclcpp::Subscription<sensor_msgs::msg::Joy\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[1.448493] (control) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.448517] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[1.448545] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[1.448569] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[1.448594] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.448621] (control) StderrLine: {'line': b'   50 |     rclcpp::Subscription<sensor_msgs::msg::Joy>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[1.448646] (control) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.448671] (control) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.448791] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:12:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.448859] (control) StderrLine: {'line': b'   12 |     void cmd_vel_callback(const igeometry_msgs::msg::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K::SharedPtr msg) {\n'}
+[1.448894] (control) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.449443] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:50:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.449518] (control) StderrLine: {'line': b'   50 |     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[1.449551] (control) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.449580] (control) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[1.456957] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KJoystickInput::JoystickInput()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.457092] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:8:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.457128] (control) StderrLine: {'line': b'    8 |         \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::Joy>(\n'}
+[1.457158] (control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.457185] (control) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[1.460863] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:8:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.460977] (control) StderrLine: {'line': b'    8 |         subscription_ = this->create_subscription<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Joy>(\n'}
+[1.461013] (control) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.461041] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:8:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.461071] (control) StderrLine: {'line': b'    8 |         subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription<sensor_msgs::msg::Joy>\x1b[m\x1b[K(\n'}
+[1.461097] (control) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.463800] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:8:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KJoystickInput::create_subscription<<expression error> >(const char [5], int, std::_Bind_helper<false, void (JoystickInput::*)(...), JoystickInput*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.463901] (control) StderrLine: {'line': b'    8 |         subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<sensor_msgs::msg::Joy>(\x1b[m\x1b[K\n'}
+[1.463935] (control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.463965] (control) StderrLine: {'line': b'    9 | \x1b[01;31m\x1b[K            "/joy", 10, std::bind(&JoystickInput::joy, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[1.463995] (control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.464023] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.464055] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.464081] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.464109] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:1\x1b[m\x1b[K:\n'}
+[1.464134] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.464162] (control) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[1.464187] (control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.464213] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.464238] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:8:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.464262] (control) StderrLine: {'line': b'    8 |         subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<sensor_msgs::msg::Joy>(\x1b[m\x1b[K\n'}
+[1.464294] (control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.464319] (control) StderrLine: {'line': b'    9 | \x1b[01;31m\x1b[K            "/joy", 10, std::bind(&JoystickInput::joy, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[1.464358] (control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.468364] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:11:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinterfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.468492] (control) StderrLine: {'line': b'   11 |         cmd_vel = this->create_publisher<\x1b[01;31m\x1b[Kinterfaces\x1b[m\x1b[K::msg::Command>("/cmd_vel", 10);\n'}
+[1.468526] (control) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.468554] (control) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[1.468581] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:11:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.468608] (control) StderrLine: {'line': b'   11 |         cmd_vel = this->\x1b[01;31m\x1b[Kcreate_publisher<interfaces::msg::Command>\x1b[m\x1b[K("/cmd_vel", 10);\n'}
+[1.468634] (control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.468660] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:11:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KJoystickInput::create_publisher<<expression error> >(const char [9], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.468689] (control) StderrLine: {'line': b'   11 |         cmd_vel = \x1b[01;31m\x1b[Kthis->create_publisher<interfaces::msg::Command>("/cmd_vel", 10)\x1b[m\x1b[K;\n'}
+[1.468714] (control) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.468738] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.468770] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.468794] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.468820] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:1\x1b[m\x1b[K:\n'}
+[1.468844] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.468871] (control) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[1.468895] (control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.468919] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.468946] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:11:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.468971] (control) StderrLine: {'line': b'   11 |         cmd_vel = \x1b[01;31m\x1b[Kthis->create_publisher<interfaces::msg::Command>("/cmd_vel", 10)\x1b[m\x1b[K;\n'}
+[1.468996] (control) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.472210] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KJoystickOutput::JoystickOutput()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.472374] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:7:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCommand\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.472417] (control) StderrLine: {'line': b'    7 |         cmd_vel_subscription_ = this->create_subscription<geometry_msgs::msg::Twist::\x1b[01;31m\x1b[KCommand\x1b[m\x1b[K>(\n'}
+[1.472447] (control) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.475417] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:7:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KJoystickOutput::create_subscription<<expression error> >(const char [9], int, std::_Bind_helper<false, void (JoystickOutput::*)(...), JoystickOutput*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.475513] (control) StderrLine: {'line': b'    7 |         cmd_vel_subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<geometry_msgs::msg::Twist::Command>(\x1b[m\x1b[K\n'}
+[1.475547] (control) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.475576] (control) StderrLine: {'line': b'    8 | \x1b[01;31m\x1b[K            "/cmd_vel", 10, std::bind(&JoystickOutput::cmd_vel_callback, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[1.475606] (control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.475633] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.475659] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.475684] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.475708] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:1\x1b[m\x1b[K:\n'}
+[1.475731] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.475766] (control) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[1.475796] (control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.475819] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.475846] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:7:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.475871] (control) StderrLine: {'line': b'    7 |         cmd_vel_subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<geometry_msgs::msg::Twist::Command>(\x1b[m\x1b[K\n'}
+[1.475896] (control) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.475921] (control) StderrLine: {'line': b'    8 | \x1b[01;31m\x1b[K            "/cmd_vel", 10, std::bind(&JoystickOutput::cmd_vel_callback, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[1.475946] (control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.505006] (-) TimerEvent: {}
+[1.605361] (-) TimerEvent: {}
+[1.705622] (-) TimerEvent: {}
+[1.737650] (control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/joy_input.dir/build.make:76: CMakeFiles/joy_input.dir/src/joy_input.cpp.o] Error 1\n'}
+[1.737936] (control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joy_input.dir/all] Error 2\n'}
+[1.737974] (control) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.743197] (control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/joy_output.dir/build.make:76: CMakeFiles/joy_output.dir/src/joy_output.cpp.o] Error 1\n'}
+[1.743252] (control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/joy_output.dir/all] Error 2\n'}
+[1.743385] (control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.745140] (control) CommandEnded: {'returncode': 2}
+[1.771744] (control) JobEnded: {'identifier': 'control', 'rc': 2}
+[1.782189] (-) EventReactorShutdown: {}

@@ -1,0 +1,30 @@
+[0.006s] Invoking command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/joystick/control/build/control -- -j12 -l12
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target joy_output[0m
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target joy_input[0m
+[0.049s] [ 50%] Built target joy_input
+[0.049s] [ 75%] [32mBuilding CXX object CMakeFiles/joy_output.dir/src/joy_output.cpp.o[0m
+[6.020s] [100%] [32m[1mLinking CXX executable joy_output[0m
+[6.334s] [100%] Built target joy_output
+[6.343s] Invoked command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/joystick/control/build/control -- -j12 -l12
+[6.368s] Invoking command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/addienze/MagangBanyubramanta/joystick/control/build/control
+[6.374s] -- Install configuration: ""
+[6.375s] -- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_input
+[6.378s] -- Set runtime path of "/home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_input" to ""
+[6.378s] -- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_output
+[6.381s] -- Set runtime path of "/home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_output" to ""
+[6.382s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[6.382s] -- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[6.382s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/ament_prefix_path.sh
+[6.382s] -- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/ament_prefix_path.dsv
+[6.382s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/path.sh
+[6.382s] -- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/path.dsv
+[6.382s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.bash
+[6.382s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.sh
+[6.382s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.zsh
+[6.382s] -- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.dsv
+[6.382s] -- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/package.dsv
+[6.382s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/packages/control
+[6.382s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/cmake/controlConfig.cmake
+[6.382s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/cmake/controlConfig-version.cmake
+[6.382s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/package.xml
+[6.383s] Invoked command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/addienze/MagangBanyubramanta/joystick/control/build/control

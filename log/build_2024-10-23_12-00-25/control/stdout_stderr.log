@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target joy_input[0m
+[ 50%] Built target joy_output
+[ 75%] [32mBuilding CXX object CMakeFiles/joy_input.dir/src/joy_input.cpp.o[0m
+[01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:[m[K In member function ‘[01m[Kvoid JoystickInput::joy(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:39:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwsit_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Ktwist_msg[m[K’?
+   39 |         cmd_vel->publish([01;31m[Ktwsit_msg[m[K);
+      |                          [01;31m[K^~~~~~~~~[m[K
+      |                          [32m[Ktwist_msg[m[K
+gmake[2]: *** [CMakeFiles/joy_input.dir/build.make:76: CMakeFiles/joy_input.dir/src/joy_input.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joy_input.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

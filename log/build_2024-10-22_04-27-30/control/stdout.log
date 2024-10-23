@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target joy_input[0m
+[ 50%] Built target joy_output
+[ 75%] [32mBuilding CXX object CMakeFiles/joy_input.dir/src/joy_input.cpp.o[0m
+[100%] [32m[1mLinking CXX executable joy_input[0m
+[100%] Built target joy_input
+-- Install configuration: ""
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_input
+-- Set runtime path of "/home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_input" to ""
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_output
+-- Set runtime path of "/home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_output" to ""
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/package_run_dependencies/control
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/parent_prefix_path/control
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/ament_prefix_path.sh
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/ament_prefix_path.dsv
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/path.sh
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/path.dsv
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.bash
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.sh
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.zsh
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.dsv
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/package.dsv
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/packages/control
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/cmake/controlConfig.cmake
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/cmake/controlConfig-version.cmake
+-- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/package.xml

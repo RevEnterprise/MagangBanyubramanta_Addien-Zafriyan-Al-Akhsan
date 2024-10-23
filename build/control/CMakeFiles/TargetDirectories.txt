@@ -1,0 +1,11 @@
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/uninstall.dir
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/control_uninstall.dir
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/joy_input.dir
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/joy_output.dir
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/test.dir
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/edit_cache.dir
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/rebuild_cache.dir
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/list_install_components.dir
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/install.dir
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/install/local.dir
+/home/addienze/MagangBanyubramanta/joystick/control/build/control/CMakeFiles/install/strip.dir

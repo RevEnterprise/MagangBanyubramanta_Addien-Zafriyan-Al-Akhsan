@@ -1,0 +1,42 @@
+[0.007s] Invoking command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/joystick/control/build/control -- -j12 -l12
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target joy_input[0m
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target joy_output[0m
+[0.046s] [ 25%] [32mBuilding CXX object CMakeFiles/joy_input.dir/src/joy_input.cpp.o[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_output.dir/src/joy_output.cpp.o[0m
+[1.427s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.428s]                  from [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:1[m[K:
+[1.428s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:[m[K In member function ‘[01m[Kvoid JoystickOutput::cmd_vel_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.428s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:14:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+[1.428s]    14 |                     msg->[01;31m[Kx[m[K, msg->y, msg->yaw, msg->depth);
+[1.428s]       |                          [01;31m[K^[m[K
+[1.428s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:14:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+[1.428s]    14 |                     msg->x, msg->[01;31m[Ky[m[K, msg->yaw, msg->depth);
+[1.428s]       |                                  [01;31m[K^[m[K
+[1.428s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:14:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kyaw[m[K’
+[1.428s]    14 |                     msg->x, msg->y, msg->[01;31m[Kyaw[m[K, msg->depth);
+[1.428s]       |                                          [01;31m[K^~~[m[K
+[1.429s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_output.cpp:14:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdepth[m[K’
+[1.429s]    14 |                     msg->x, msg->y, msg->yaw, msg->[01;31m[Kdepth[m[K);
+[1.429s]       |                                                    [01;31m[K^~~~~[m[K
+[1.440s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:[m[K In member function ‘[01m[Kvoid JoystickInput::joy(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.440s] [01m[K/home/addienze/MagangBanyubramanta/joystick/control/src/joy_input.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwsit_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Ktwist_msg[m[K’?
+[1.440s]    35 |         [01;31m[Ktwsit_msg[m[K.linear.y = y_cmd;
+[1.440s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.440s]       |         [32m[Ktwist_msg[m[K
+[2.903s] gmake[2]: *** [CMakeFiles/joy_output.dir/build.make:76: CMakeFiles/joy_output.dir/src/joy_output.cpp.o] Error 1
+[2.903s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/joy_output.dir/all] Error 2
+[2.903s] gmake[1]: *** Waiting for unfinished jobs....
+[2.959s] gmake[2]: *** [CMakeFiles/joy_input.dir/build.make:76: CMakeFiles/joy_input.dir/src/joy_input.cpp.o] Error 1
+[2.959s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joy_input.dir/all] Error 2
+[2.959s] gmake: *** [Makefile:146: all] Error 2
+[2.961s] Invoked command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/joystick/control/build/control -- -j12 -l12

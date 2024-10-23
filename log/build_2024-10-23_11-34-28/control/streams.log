@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control': /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/joystick/control/build/control -- -j12 -l12
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target joy_output[0m
+[0.137s] [ 50%] Built target joy_input
+[0.137s] [100%] Built target joy_output
+[0.146s] Invoked command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control' returned '0': /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/joystick/control/build/control -- -j12 -l12
+[0.173s] Invoking command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control': /usr/bin/cmake --install /home/addienze/MagangBanyubramanta/joystick/control/build/control
+[0.179s] -- Install configuration: ""
+[0.180s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_input
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/lib/control/joy_output
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/ament_prefix_path.sh
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/ament_prefix_path.dsv
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/path.sh
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/environment/path.dsv
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.bash
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.sh
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.zsh
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/local_setup.dsv
+[0.181s] -- Installing: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/package.dsv
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/ament_index/resource_index/packages/control
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/cmake/controlConfig.cmake
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/cmake/controlConfig-version.cmake
+[0.181s] -- Up-to-date: /home/addienze/MagangBanyubramanta/joystick/control/install/control/share/control/package.xml
+[0.183s] Invoked command in '/home/addienze/MagangBanyubramanta/joystick/control/build/control' returned '0': /usr/bin/cmake --install /home/addienze/MagangBanyubramanta/joystick/control/build/control

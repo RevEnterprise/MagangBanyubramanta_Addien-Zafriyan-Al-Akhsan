@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target joy_input[0m
+[ 50%] Built target joy_output
+[ 75%] [32mBuilding CXX object CMakeFiles/joy_input.dir/src/joy_input.cpp.o[0m
