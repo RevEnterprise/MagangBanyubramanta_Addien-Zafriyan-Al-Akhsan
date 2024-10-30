@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000371] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.000533] (vision) JobStarted: {'identifier': 'vision'}
+[0.005018] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.005484] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.005969] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/addienze/MagangBanyubramanta/Main/vision/build/vision', '--', '-j12', '-l12'], 'cwd': '/home/addienze/MagangBanyubramanta/Main/vision/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'addienze'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/addienze'), ('OLDPWD', '/home/addienze/MagangBanyubramanta/Main'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2102'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/addienze/MagangBanyubramanta/Main/vision/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'addienze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'addienze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/addienze-Thin-15-B12UCX:@/tmp/.ICE-unix/2061,unix/addienze-Thin-15-B12UCX:/tmp/.ICE-unix/2061'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d1fcc5b_b41b_4138_9db3_eb5875793803'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/addienze/MagangBanyubramanta/Main/vision/install/vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/addienze/MagangBanyubramanta/Main/vision/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/addienze/MagangBanyubramanta/Main/vision/install/vision:/opt/ros/humble')]), 'shell': False}
+[0.039210] (vision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target videoup\x1b[0m\n'}
+[0.054231] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/videoup.dir/src/videoup.cpp.o\x1b[0m\n'}
+[0.099901] (-) TimerEvent: {}
+[0.200476] (-) TimerEvent: {}
+[0.300818] (-) TimerEvent: {}
+[0.401156] (-) TimerEvent: {}
+[0.501478] (-) TimerEvent: {}
+[0.601930] (-) TimerEvent: {}
+[0.702274] (-) TimerEvent: {}
+[0.802623] (-) TimerEvent: {}
+[0.902881] (-) TimerEvent: {}
+[1.003298] (-) TimerEvent: {}
+[1.103561] (-) TimerEvent: {}
+[1.204019] (-) TimerEvent: {}
+[1.304480] (-) TimerEvent: {}
+[1.404786] (-) TimerEvent: {}
+[1.505117] (-) TimerEvent: {}
+[1.605489] (-) TimerEvent: {}
+[1.705731] (-) TimerEvent: {}
+[1.806110] (-) TimerEvent: {}
+[1.881322] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:62:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before string constant\n'}
+[1.881481] (vision) StderrLine: {'line': b'   62 |     cv::VideoCapture cap(\x1b[01;31m\x1b[K"/home/addienze/MagangBanyubramanta/Main/vision/src/second.mp4"\x1b[m\x1b[K);\n'}
+[1.881520] (vision) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.881551] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:62:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[1.889959] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ImagePublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.890090] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:26:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Kcv::VideoCapture ImagePublisher::cap(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[1.890126] (vision) StderrLine: {'line': b'   26 |         if (!\x1b[01;31m\x1b[Kcap\x1b[m\x1b[K.read(video))\n'}
+[1.890155] (vision) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.890183] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:26:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kread\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.890210] (vision) StderrLine: {'line': b'   26 |         if (!cap.\x1b[01;31m\x1b[Kread\x1b[m\x1b[K(video))\n'}
+[1.890237] (vision) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.890269] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:26:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.890302] (vision) StderrLine: {'line': b'   26 |         if \x1b[01;36m\x1b[K(\x1b[m\x1b[K!cap.read(video))\n'}
+[1.890327] (vision) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.906216] (-) TimerEvent: {}
+[2.006585] (-) TimerEvent: {}
+[2.106871] (-) TimerEvent: {}
+[2.207178] (-) TimerEvent: {}
+[2.307440] (-) TimerEvent: {}
+[2.407759] (-) TimerEvent: {}
+[2.508127] (-) TimerEvent: {}
+[2.608692] (-) TimerEvent: {}
+[2.708951] (-) TimerEvent: {}
+[2.809296] (-) TimerEvent: {}
+[2.909753] (-) TimerEvent: {}
+[2.942356] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/videoup.dir/build.make:76: CMakeFiles/videoup.dir/src/videoup.cpp.o] Error 1\n'}
+[2.942544] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/videoup.dir/all] Error 2\n'}
+[2.942631] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.944388] (vision) CommandEnded: {'returncode': 2}
+[2.970234] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[2.980865] (-) EventReactorShutdown: {}

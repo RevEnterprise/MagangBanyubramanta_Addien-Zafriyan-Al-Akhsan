@@ -1,0 +1,8 @@
+[01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:[m[K In member function ‘[01m[Kvoid ImagePublisher::timer_callback()[m[K’:
+[01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:54:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kbronyaimg[m[K’ was not declared in this scope
+   54 | e_msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", [01;31m[Kbronyaimg[m[K).toImageMsg();
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/videoup.dir/build.make:76: CMakeFiles/videoup.dir/src/videoup.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/videoup.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

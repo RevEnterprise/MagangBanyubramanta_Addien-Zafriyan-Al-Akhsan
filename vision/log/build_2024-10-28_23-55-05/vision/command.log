@@ -1,0 +1,4 @@
+Invoking command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/addienze/MagangBanyubramanta/Main/vision -DCMAKE_INSTALL_PREFIX=/home/addienze/MagangBanyubramanta/Main/vision/install/vision
+Invoked command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/addienze/MagangBanyubramanta/Main/vision -DCMAKE_INSTALL_PREFIX=/home/addienze/MagangBanyubramanta/Main/vision/install/vision
+Invoking command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/vision/build/vision -- -j12 -l12
+Invoked command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/vision/build/vision -- -j12 -l12

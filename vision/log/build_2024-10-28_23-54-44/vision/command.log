@@ -1,0 +1,2 @@
+Invoking command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/addienze/MagangBanyubramanta/Main/vision -DCMAKE_INSTALL_PREFIX=/home/addienze/MagangBanyubramanta/Main/vision/install/vision
+Invoked command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/addienze/MagangBanyubramanta/Main/vision -DCMAKE_INSTALL_PREFIX=/home/addienze/MagangBanyubramanta/Main/vision/install/vision

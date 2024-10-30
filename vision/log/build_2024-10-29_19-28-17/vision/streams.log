@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/vision/build/vision -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target videoup[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/videoup.dir/src/videoup.cpp.o[0m
+[3.455s] [100%] [32m[1mLinking CXX executable videoup[0m
+[3.813s] [100%] Built target videoup
+[3.822s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/vision/build/vision -- -j12 -l12
+[3.845s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/addienze/MagangBanyubramanta/Main/vision/build/vision
+[3.850s] -- Install configuration: ""
+[3.851s] -- Installing: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/lib/vision/videoup
+[3.851s] -- Set runtime path of "/home/addienze/MagangBanyubramanta/Main/vision/install/vision/lib/vision/videoup" to ""
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/environment/ament_prefix_path.sh
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/environment/ament_prefix_path.dsv
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/environment/path.sh
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/environment/path.dsv
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/local_setup.bash
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/local_setup.sh
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/local_setup.zsh
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/local_setup.dsv
+[3.852s] -- Installing: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/package.dsv
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/ament_index/resource_index/packages/vision
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/cmake/visionConfig.cmake
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/cmake/visionConfig-version.cmake
+[3.852s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/package.xml
+[3.853s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/addienze/MagangBanyubramanta/Main/vision/build/vision

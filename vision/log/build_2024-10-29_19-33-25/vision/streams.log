@@ -1,0 +1,21 @@
+[0.007s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/vision/build/vision -- -j12 -l12
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target videoup[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/videoup.dir/src/videoup.cpp.o[0m
+[1.776s] [01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:62:26:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+[1.776s]    62 |     cv::VideoCapture cap([01;31m[K"second.mp4"[m[K);
+[1.776s]       |                          [01;31m[K^~~~~~~~~~~~[m[K
+[1.776s] [01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:62:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[1.784s] [01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:[m[K In member function ‘[01m[Kvoid ImagePublisher::timer_callback()[m[K’:
+[1.784s] [01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:26:14:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kcv::VideoCapture ImagePublisher::cap(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[1.784s]    26 |         if (![01;31m[Kcap[m[K.read(video))
+[1.784s]       |              [01;31m[K^~~[m[K
+[1.784s] [01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:26:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kread[m[K’
+[1.784s]    26 |         if (!cap.[01;31m[Kread[m[K(video))
+[1.784s]       |                  [01;31m[K^~~~[m[K
+[1.784s] [01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:26:12:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.784s]    26 |         if [01;36m[K([m[K!cap.read(video))
+[1.784s]       |            [01;36m[K^[m[K
+[2.768s] gmake[2]: *** [CMakeFiles/videoup.dir/build.make:76: CMakeFiles/videoup.dir/src/videoup.cpp.o] Error 1
+[2.769s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/videoup.dir/all] Error 2
+[2.769s] gmake: *** [Makefile:146: all] Error 2
+[2.771s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/vision/build/vision -- -j12 -l12

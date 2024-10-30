@@ -1,0 +1,4 @@
+Invoking command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision': /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/vision/build/vision -- -j12 -l12
+Invoked command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision' returned '0': /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/vision/build/vision -- -j12 -l12
+Invoking command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision': /usr/bin/cmake --install /home/addienze/MagangBanyubramanta/Main/vision/build/vision
+Invoked command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision' returned '0': /usr/bin/cmake --install /home/addienze/MagangBanyubramanta/Main/vision/build/vision

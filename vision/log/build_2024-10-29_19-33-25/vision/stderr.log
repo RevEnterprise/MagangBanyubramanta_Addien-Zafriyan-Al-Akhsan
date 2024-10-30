@@ -1,0 +1,17 @@
+[01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:62:26:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+   62 |     cv::VideoCapture cap([01;31m[K"second.mp4"[m[K);
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:62:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:[m[K In member function ‘[01m[Kvoid ImagePublisher::timer_callback()[m[K’:
+[01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:26:14:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kcv::VideoCapture ImagePublisher::cap(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   26 |         if (![01;31m[Kcap[m[K.read(video))
+      |              [01;31m[K^~~[m[K
+[01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:26:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kread[m[K’
+   26 |         if (!cap.[01;31m[Kread[m[K(video))
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:26:12:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   26 |         if [01;36m[K([m[K!cap.read(video))
+      |            [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/videoup.dir/build.make:76: CMakeFiles/videoup.dir/src/videoup.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/videoup.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

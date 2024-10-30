@@ -1,0 +1,10 @@
+[0.008s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/vision/build/vision -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target videoup[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/videoup.dir/src/videoup.cpp.o[0m
+[1.866s] [01m[K/home/addienze/MagangBanyubramanta/Main/vision/src/videoup.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap_[m[K’ does not name a type
+[1.867s]    21 |     [01;31m[Kcap_[m[K.open("/home/addienze/MagangBanyubramanta/Main/vision/src/second.mp4");
+[1.867s]       |     [01;31m[K^~~~[m[K
+[2.905s] gmake[2]: *** [CMakeFiles/videoup.dir/build.make:76: CMakeFiles/videoup.dir/src/videoup.cpp.o] Error 1
+[2.906s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/videoup.dir/all] Error 2
+[2.906s] gmake: *** [Makefile:146: all] Error 2
+[2.908s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/vision/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/vision/build/vision -- -j12 -l12

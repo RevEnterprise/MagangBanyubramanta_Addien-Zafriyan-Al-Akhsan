@@ -1,0 +1,10 @@
+/home/addienze/MagangBanyubramanta/Main/vision/build/vision/CMakeFiles/uninstall.dir
+/home/addienze/MagangBanyubramanta/Main/vision/build/vision/CMakeFiles/vision_uninstall.dir
+/home/addienze/MagangBanyubramanta/Main/vision/build/vision/CMakeFiles/videoup.dir
+/home/addienze/MagangBanyubramanta/Main/vision/build/vision/CMakeFiles/test.dir
+/home/addienze/MagangBanyubramanta/Main/vision/build/vision/CMakeFiles/edit_cache.dir
+/home/addienze/MagangBanyubramanta/Main/vision/build/vision/CMakeFiles/rebuild_cache.dir
+/home/addienze/MagangBanyubramanta/Main/vision/build/vision/CMakeFiles/list_install_components.dir
+/home/addienze/MagangBanyubramanta/Main/vision/build/vision/CMakeFiles/install.dir
+/home/addienze/MagangBanyubramanta/Main/vision/build/vision/CMakeFiles/install/local.dir
+/home/addienze/MagangBanyubramanta/Main/vision/build/vision/CMakeFiles/install/strip.dir

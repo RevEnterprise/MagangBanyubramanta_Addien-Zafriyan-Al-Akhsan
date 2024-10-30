@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000447] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.000529] (vision) JobStarted: {'identifier': 'vision'}
+[0.004858] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.005618] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.005886] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/addienze/MagangBanyubramanta/Main/vision/build/vision', '--', '-j12', '-l12'], 'cwd': '/home/addienze/MagangBanyubramanta/Main/vision/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'addienze'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/addienze'), ('OLDPWD', '/home/addienze/MagangBanyubramanta/Main'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2102'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/addienze/MagangBanyubramanta/Main/vision/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'addienze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'addienze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/addienze-Thin-15-B12UCX:@/tmp/.ICE-unix/2061,unix/addienze-Thin-15-B12UCX:/tmp/.ICE-unix/2061'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d1fcc5b_b41b_4138_9db3_eb5875793803'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/addienze/MagangBanyubramanta/Main/vision/install/vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/addienze/MagangBanyubramanta/Main/vision/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/addienze/MagangBanyubramanta/Main/vision/install/vision:/opt/ros/humble')]), 'shell': False}
+[0.038412] (vision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target videoup\x1b[0m\n'}
+[0.050191] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/videoup.dir/src/videoup.cpp.o\x1b[0m\n'}
+[0.099882] (-) TimerEvent: {}
+[0.200370] (-) TimerEvent: {}
+[0.300733] (-) TimerEvent: {}
+[0.401045] (-) TimerEvent: {}
+[0.501343] (-) TimerEvent: {}
+[0.601627] (-) TimerEvent: {}
+[0.702016] (-) TimerEvent: {}
+[0.802342] (-) TimerEvent: {}
+[0.902621] (-) TimerEvent: {}
+[1.003012] (-) TimerEvent: {}
+[1.103408] (-) TimerEvent: {}
+[1.203873] (-) TimerEvent: {}
+[1.304214] (-) TimerEvent: {}
+[1.404566] (-) TimerEvent: {}
+[1.504960] (-) TimerEvent: {}
+[1.605426] (-) TimerEvent: {}
+[1.705747] (-) TimerEvent: {}
+[1.806124] (-) TimerEvent: {}
+[1.906444] (-) TimerEvent: {}
+[2.006761] (-) TimerEvent: {}
+[2.107082] (-) TimerEvent: {}
+[2.207442] (-) TimerEvent: {}
+[2.307801] (-) TimerEvent: {}
+[2.408340] (-) TimerEvent: {}
+[2.508879] (-) TimerEvent: {}
+[2.609203] (-) TimerEvent: {}
+[2.709637] (-) TimerEvent: {}
+[2.809975] (-) TimerEvent: {}
+[2.910316] (-) TimerEvent: {}
+[3.010574] (-) TimerEvent: {}
+[3.110929] (-) TimerEvent: {}
+[3.211289] (-) TimerEvent: {}
+[3.311713] (-) TimerEvent: {}
+[3.411993] (-) TimerEvent: {}
+[3.455773] (vision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable videoup\x1b[0m\n'}
+[3.512113] (-) TimerEvent: {}
+[3.612349] (-) TimerEvent: {}
+[3.712701] (-) TimerEvent: {}
+[3.813086] (-) TimerEvent: {}
+[3.813846] (vision) StdoutLine: {'line': b'[100%] Built target videoup\n'}
+[3.822036] (vision) CommandEnded: {'returncode': 0}
+[3.838772] (vision) JobProgress: {'identifier': 'vision', 'progress': 'install'}
+[3.845528] (vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/addienze/MagangBanyubramanta/Main/vision/build/vision'], 'cwd': '/home/addienze/MagangBanyubramanta/Main/vision/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'addienze'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/addienze'), ('OLDPWD', '/home/addienze/MagangBanyubramanta/Main'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2102'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/addienze/MagangBanyubramanta/Main/vision/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'addienze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'addienze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/addienze-Thin-15-B12UCX:@/tmp/.ICE-unix/2061,unix/addienze-Thin-15-B12UCX:/tmp/.ICE-unix/2061'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d1fcc5b_b41b_4138_9db3_eb5875793803'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/addienze/MagangBanyubramanta/Main/vision/install/vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/addienze/MagangBanyubramanta/Main/vision/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/addienze/MagangBanyubramanta/Main/vision/install/vision:/opt/ros/humble')]), 'shell': False}
+[3.850931] (vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.851029] (vision) StdoutLine: {'line': b'-- Installing: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/lib/vision/videoup\n'}
+[3.851951] (vision) StdoutLine: {'line': b'-- Set runtime path of "/home/addienze/MagangBanyubramanta/Main/vision/install/vision/lib/vision/videoup" to ""\n'}
+[3.852028] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/ament_index/resource_index/package_run_dependencies/vision\n'}
+[3.852069] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/ament_index/resource_index/parent_prefix_path/vision\n'}
+[3.852109] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/environment/ament_prefix_path.sh\n'}
+[3.852150] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/environment/ament_prefix_path.dsv\n'}
+[3.852210] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/environment/path.sh\n'}
+[3.852249] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/environment/path.dsv\n'}
+[3.852287] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/local_setup.bash\n'}
+[3.852328] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/local_setup.sh\n'}
+[3.852387] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/local_setup.zsh\n'}
+[3.852434] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/local_setup.dsv\n'}
+[3.852471] (vision) StdoutLine: {'line': b'-- Installing: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/package.dsv\n'}
+[3.852506] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/ament_index/resource_index/packages/vision\n'}
+[3.852543] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/cmake/visionConfig.cmake\n'}
+[3.852576] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/cmake/visionConfig-version.cmake\n'}
+[3.852609] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/vision/install/vision/share/vision/package.xml\n'}
+[3.853658] (vision) CommandEnded: {'returncode': 0}
+[3.885857] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[3.886320] (-) EventReactorShutdown: {}
