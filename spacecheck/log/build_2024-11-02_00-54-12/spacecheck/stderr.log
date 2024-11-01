@@ -1,0 +1,11 @@
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:78:33:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   78 |     std::this_thread::sleep_for([01;31m[K3s[m[K); // Jeda 3 detik untuk menunggu input
+      |                                 [01;31m[K^~[m[K
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktree[m[K’ was not declared in this scope; did you mean ‘[01m[Ktee[m[K’?
+   80 |     [01;31m[Ktree[m[K.tickRoot();
+      |     [01;31m[K^~~~[m[K
+      |     [32m[Ktee[m[K
+gmake[2]: *** [CMakeFiles/Spacebar.dir/build.make:76: CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Spacebar.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

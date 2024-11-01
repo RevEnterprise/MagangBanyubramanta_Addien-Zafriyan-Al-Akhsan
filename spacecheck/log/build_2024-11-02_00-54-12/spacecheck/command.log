@@ -1,0 +1,2 @@
+Invoking command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12
+Invoked command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12

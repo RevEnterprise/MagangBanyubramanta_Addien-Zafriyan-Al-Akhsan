@@ -1,0 +1,11 @@
+[0.007s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target Spacebar[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o[0m
+[0.588s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.588s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+[0.588s]    78 |     [01;31m[Ktd[m[K::this_thread::sleep_for(std::chrono::seconds(2)); // Jeda 3 detik untuk menunggu input
+[0.588s]       |     [01;31m[K^~[m[K
+[0.767s] gmake[2]: *** [CMakeFiles/Spacebar.dir/build.make:76: CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o] Error 1
+[0.767s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Spacebar.dir/all] Error 2
+[0.767s] gmake: *** [Makefile:146: all] Error 2
+[0.769s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12

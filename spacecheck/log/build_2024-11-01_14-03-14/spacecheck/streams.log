@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o[0m
+[1.356s] [100%] [32m[1mLinking CXX executable Spacebar[0m
+[1.482s] [100%] Built target Spacebar
+[1.498s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12
+[1.540s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck
+[1.549s] -- Install configuration: ""
+[1.549s] -- Installing: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/lib/spacecheck/Spacebar
+[1.549s] -- Set runtime path of "/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/lib/spacecheck/Spacebar" to ""
+[1.550s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/ament_index/resource_index/package_run_dependencies/spacecheck
+[1.550s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/ament_index/resource_index/parent_prefix_path/spacecheck
+[1.550s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/ament_prefix_path.sh
+[1.550s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/ament_prefix_path.dsv
+[1.550s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/path.sh
+[1.550s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/path.dsv
+[1.550s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.bash
+[1.550s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.sh
+[1.550s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.zsh
+[1.550s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.dsv
+[1.550s] -- Installing: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/package.dsv
+[1.551s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/ament_index/resource_index/packages/spacecheck
+[1.551s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/cmake/spacecheckConfig.cmake
+[1.551s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/cmake/spacecheckConfig-version.cmake
+[1.551s] -- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/package.xml
+[1.552s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck

@@ -1,0 +1,11 @@
+[0.007s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target Spacebar[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o[0m
+[0.548s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.548s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:74:27:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ifstream xml_file[m[K’ has initializer but incomplete type
+[0.548s]    74 |     std::ifstream xml_file[01;31m[K([m[K"/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/behavior_trees/spacecheck.xml");
+[0.548s]       |                           [01;31m[K^[m[K
+[0.731s] gmake[2]: *** [CMakeFiles/Spacebar.dir/build.make:76: CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o] Error 1
+[0.731s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Spacebar.dir/all] Error 2
+[0.731s] gmake: *** [Makefile:146: all] Error 2
+[0.733s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12

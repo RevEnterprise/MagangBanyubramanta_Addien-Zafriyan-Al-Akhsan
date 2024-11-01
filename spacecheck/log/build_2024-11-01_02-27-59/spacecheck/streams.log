@@ -1,0 +1,12 @@
+[0.008s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target Spacebar[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o[0m
+[0.554s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.554s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:82:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass BT::Tree[m[K’ has no member named ‘[01m[Kroot_node[m[K’; did you mean ‘[01m[KrootNode[m[K’?
+[0.554s]    82 |     if (tree.[01;31m[Kroot_node[m[K == nullptr) { // Assuming root_node is a member that indicates tree validity
+[0.554s]       |              [01;31m[K^~~~~~~~~[m[K
+[0.554s]       |              [32m[KrootNode[m[K
+[0.733s] gmake[2]: *** [CMakeFiles/Spacebar.dir/build.make:76: CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o] Error 1
+[0.733s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Spacebar.dir/all] Error 2
+[0.733s] gmake: *** [Makefile:146: all] Error 2
+[0.735s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12

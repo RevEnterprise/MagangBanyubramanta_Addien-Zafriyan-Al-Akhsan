@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o[0m
+[100%] [32m[1mLinking CXX executable Spacebar[0m
+[100%] Built target Spacebar
+-- Install configuration: ""
+-- Installing: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/lib/spacecheck/Spacebar
+-- Set runtime path of "/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/lib/spacecheck/Spacebar" to ""
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/ament_index/resource_index/package_run_dependencies/spacecheck
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/ament_index/resource_index/parent_prefix_path/spacecheck
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/ament_prefix_path.sh
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/path.sh
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/path.dsv
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.bash
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.sh
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.zsh
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.dsv
+-- Installing: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/package.dsv
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/ament_index/resource_index/packages/spacecheck
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/cmake/spacecheckConfig.cmake
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/cmake/spacecheckConfig-version.cmake
+-- Up-to-date: /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/package.xml

@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target Spacebar[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o[0m
+[0.561s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.561s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksstd[m[K’ has not been declared
+[0.561s]    68 |     [01;31m[Ksstd[m[K::ifstream xml_file("/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/behavior_trees/spacecheck_tree.xml");
+[0.561s]       |     [01;31m[K^~~~[m[K
+[0.563s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:69:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kxml_file[m[K’ was not declared in this scope
+[0.563s]    69 |     if (![01;31m[Kxml_file[m[K) {
+[0.563s]       |          [01;31m[K^~~~~~~~[m[K
+[0.565s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:75:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kxml_file[m[K’ was not declared in this scope
+[0.565s]    75 |     buffer << [01;31m[Kxml_file[m[K.rdbuf();
+[0.565s]       |               [01;31m[K^~~~~~~~[m[K
+[0.566s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+[0.566s]    80 |     [01;31m[Ks[m[K   td::cerr << "The XML content is empty." << std::endl;
+[0.566s]       |     [01;31m[K^[m[K
+[0.745s] gmake[2]: *** [CMakeFiles/Spacebar.dir/build.make:76: CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o] Error 1
+[0.745s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Spacebar.dir/all] Error 2
+[0.745s] gmake: *** [Makefile:146: all] Error 2
+[0.747s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12

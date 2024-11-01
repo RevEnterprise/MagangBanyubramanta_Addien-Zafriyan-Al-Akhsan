@@ -1,0 +1,4 @@
+source;share/spacecheck/local_setup.bash
+source;share/spacecheck/local_setup.dsv
+source;share/spacecheck/local_setup.sh
+source;share/spacecheck/local_setup.zsh

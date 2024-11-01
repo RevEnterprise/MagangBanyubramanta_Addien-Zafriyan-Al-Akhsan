@@ -1,0 +1,10 @@
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck/CMakeFiles/uninstall.dir
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck/CMakeFiles/spacecheck_uninstall.dir
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck/CMakeFiles/Spacebar.dir
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck/CMakeFiles/test.dir
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck/CMakeFiles/edit_cache.dir
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck/CMakeFiles/rebuild_cache.dir
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck/CMakeFiles/list_install_components.dir
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck/CMakeFiles/install.dir
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck/CMakeFiles/install/local.dir
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck/CMakeFiles/install/strip.dir

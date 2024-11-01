@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target Spacebar[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o[0m
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:82:14:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KBT::TreeNode* BT::Tree::rootNode() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   82 |     if ([01;31m[Ktree.rootNode[m[K == nullptr) { // Assuming root_node is a member that indicates tree validity
+      |         [01;31m[K~~~~~^~~~~~~~[m[K
+      |                      [32m[K()[m[K
+gmake[2]: *** [CMakeFiles/Spacebar.dir/build.make:76: CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Spacebar.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

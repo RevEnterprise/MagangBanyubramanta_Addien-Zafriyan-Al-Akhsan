@@ -1,0 +1,16 @@
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/lib/spacecheck/Spacebar
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/ament_index/resource_index/package_run_dependencies/spacecheck
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/ament_index/resource_index/parent_prefix_path/spacecheck
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/ament_prefix_path.sh
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/ament_prefix_path.dsv
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/path.sh
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/environment/path.dsv
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.bash
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.sh
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.zsh
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/local_setup.dsv
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/package.dsv
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/ament_index/resource_index/packages/spacecheck
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/cmake/spacecheckConfig.cmake
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/cmake/spacecheckConfig-version.cmake
+/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/install/spacecheck/share/spacecheck/package.xml

@@ -1,0 +1,19 @@
+[0.009s] Invoking command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o[0m
+[0.564s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.564s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:80:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kxml_content[m[K’ was not declared in this scope
+[0.564s]    80 |     auto tree = factory.createTreeFromText([01;31m[Kxml_content[m[K);
+[0.564s]       |                                            [01;31m[K^~~~~~~~~~~[m[K
+[0.565s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:95:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kxml_conten[m[K’ was not declared in this scope
+[0.565s]    95 |     std::cout << "Loaded XML content: " << [01;31m[Kxml_conten[m[K
+[0.565s]       |                                            [01;31m[K^~~~~~~~~~[m[K
+[0.566s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:95:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[0.566s]    95 |     std::cout << "Loaded XML content: " << xml_conten
+[0.566s]       |                                                      [01;31m[K^[m[K
+[0.566s] [01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:67:12:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[0.566s]    67 | int main() [01;36m[K{[m[K
+[0.566s]       |            [01;36m[K^[m[K
+[0.742s] gmake[2]: *** [CMakeFiles/Spacebar.dir/build.make:76: CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o] Error 1
+[0.742s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Spacebar.dir/all] Error 2
+[0.743s] gmake: *** [Makefile:146: all] Error 2
+[0.744s] Invoked command in '/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/addienze/MagangBanyubramanta/Main/cek/spacecheck/build/spacecheck -- -j12 -l12

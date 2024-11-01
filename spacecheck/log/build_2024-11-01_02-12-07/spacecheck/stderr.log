@@ -1,0 +1,16 @@
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksstd[m[K’ has not been declared
+   68 |     [01;31m[Ksstd[m[K::ifstream xml_file("/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/behavior_trees/spacecheck_tree.xml");
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:69:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kxml_file[m[K’ was not declared in this scope
+   69 |     if (![01;31m[Kxml_file[m[K) {
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:75:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kxml_file[m[K’ was not declared in this scope
+   75 |     buffer << [01;31m[Kxml_file[m[K.rdbuf();
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+   80 |     [01;31m[Ks[m[K   td::cerr << "The XML content is empty." << std::endl;
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/Spacebar.dir/build.make:76: CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Spacebar.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

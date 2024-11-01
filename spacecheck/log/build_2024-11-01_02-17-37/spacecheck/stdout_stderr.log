@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target Spacebar[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o[0m
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:89:17:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::string xml_content[m[K’
+   89 |     std::string [01;31m[Kxml_content[m[K;
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:76:17:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string xml_content[m[K’ previously declared here
+   76 |     std::string [01;36m[Kxml_content[m[K = buffer.str();
+      |                 [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:91:24:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::ostringstream buffer[m[K’
+   91 |     std::ostringstream [01;31m[Kbuffer[m[K;
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:74:23:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::stringstream buffer[m[K’
+   74 |     std::stringstream [01;36m[Kbuffer[m[K;
+      |                       [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Spacebar.dir/build.make:76: CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Spacebar.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

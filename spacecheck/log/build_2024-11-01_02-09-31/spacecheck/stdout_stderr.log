@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o[0m
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/src/Spacebar.cpp:67:27:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ifstream xml_file[m[K’ has initializer but incomplete type
+   67 |     std::ifstream xml_file[01;31m[K([m[K"behavior_trees/spacecheck_tree.xml");
+      |                           [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/Spacebar.dir/build.make:76: CMakeFiles/Spacebar.dir/src/Spacebar.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Spacebar.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
