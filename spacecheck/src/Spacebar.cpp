@@ -70,12 +70,14 @@ int main() {
 
     factory.registerNodeType<CheckKeyPress>("CheckKeyPress");
     factory.registerNodeType<OutputKeyPress>("OutputKeyPress");
-    
-    std::this_thread::sleep_for(std::chrono::seconds(2)); 
 
     auto tree = factory.createTreeFromFile("/home/addienze/MagangBanyubramanta/Main/cek/spacecheck/behavior_trees/spacecheck.xml");   
     
-    tree.tickRoot(); 
+    for (;;) {
+        tree.tickRoot();  
+        std::this_thread::sleep_for(std::chrono::milliseconds(150)); // Wait 1 second before next tick
+    }
+
 
     return 0;
 }
